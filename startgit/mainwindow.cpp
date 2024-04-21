@@ -13,3 +13,20 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+
+void MainWindow::on_classBall_clicked()
+{
+
+}
+
+
+
+void MainWindow::on_personBall_clicked()
+{
+
+}
+
+void MainWindow::on_pushButton_clicked()
+{
+    obj1.numder();
+}

@@ -1,5 +1,6 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
+#include "primerclass.h"
 
 #include <QMainWindow>
 
@@ -14,6 +15,15 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    //обьект созданного нами класса
+    primerClass obj1;
+
+
+private slots:
+    void on_classBall_clicked();
+    void on_personBall_clicked();
+
+    void on_pushButton_clicked();
 
 private:
     Ui::MainWindow *ui;
